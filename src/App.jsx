@@ -11,7 +11,8 @@ function App() {
 
     // window.location.replace(url);
     setCount((count) => count+1)
-    window.location.replace("animations1://path/"); 
+    window.location.replace("intent://animations1.com/#Intent;scheme=https;package=com.animations1.android;end"); 
+    // window.location.replace("animations1://path/"); 
   }
   const inst = () => {
     const url =
