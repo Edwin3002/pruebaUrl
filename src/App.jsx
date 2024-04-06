@@ -21,12 +21,20 @@ function App() {
     // window.location.replace(url);
     window.location.replace(url); 
   }
-  const face = () => {
+  const what1 = () => {
     const url =
-      "intent://facebook.com/#Intent;scheme=https;package=com.facebook.android;end";
+      "intent://whatsapp.com/#Intent;scheme=https;package=com.whatsapp.android;end";
 
     // window.location.replace(url);
     window.location.replace(url); 
+  }
+  
+  const what2 = () => {
+    const url =
+      "intent://whatsapp.com/#Intent;scheme=https;package=com.whatsapp.android;end";
+
+    // window.location.replace(url);
+    window.location.replace("whatsapp://"); 
   }
   return (
     <>
@@ -49,9 +57,12 @@ function App() {
         <button onClick={inst}>
           inst
         </button>
-        {/* <button onClick={face}>
-          facebook
-        </button> */}
+        <button onClick={what1}>
+          what1
+        </button>
+        <button onClick={what2}>
+          what2
+        </button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
