@@ -11,12 +11,19 @@ function App() {
 
     // window.location.replace(url);
     setCount((count) => count+1)
-    window.location.replace("intent://animations1.com/#Intent;scheme=https;package=com.animations1.android;end"); 
+    window.location.replace("intent://facebook.com/#Intent;scheme=https;package=com.facebook.android;end"); 
     // window.location.replace("animations1://path/"); 
   }
   const inst = () => {
     const url =
       "intent://instagram.com/#Intent;scheme=https;package=com.instagram.android;end";
+
+    // window.location.replace(url);
+    window.location.replace(url); 
+  }
+  const face = () => {
+    const url =
+      "intent://facebook.com/#Intent;scheme=https;package=com.facebook.android;end";
 
     // window.location.replace(url);
     window.location.replace(url); 
@@ -41,6 +48,9 @@ function App() {
         </button>
         <button onClick={inst}>
           inst
+        </button>
+        <button onClick={face}>
+          facebook
         </button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
