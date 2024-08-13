@@ -38,7 +38,7 @@ function App() {
   }
   return (
     <>
-      <div>
+      <div style={{background: url("https://res.cloudinary.com/edwin3002/image/upload/v1704608305/portafolio/portafolioBg_iscdes.jpg")}}>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
